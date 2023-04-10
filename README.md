@@ -1,7 +1,5 @@
 # Dual Graph Adaptive Propagation for Inductive Text Classification
 
----
-
 ## Requirements
 
 python == 3.6
@@ -27,8 +25,6 @@ torch-scatter == 2.0.8
 torch-sparse == 0.6.9
 
 torch-spline-conv == 1.2.1
-
----
 
 ## File Tree
 
@@ -66,8 +62,6 @@ torch-spline-conv == 1.2.1
 
 ```
 
----
-
 ## Usage
 
 Before training the model, please refer to the `README.md` in `\preprocess` to perform data preprocessing and generate the training data.
@@ -77,8 +71,6 @@ Example of running DGAP:
 `python train.py --dataset mr --graph_mode dual --fuse_mode gate --log_dir log` to train DGAP-G;
 
 `python train.py --dataset R8 --graph_mode dual --fuse_mode atten --log_dir log` to train DGAP-A;
-
----
 
 ## Cite
 
