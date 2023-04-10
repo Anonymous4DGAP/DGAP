@@ -1,0 +1,1 @@
+This path is used to save the training log of the model.
